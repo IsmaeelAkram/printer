@@ -9,12 +9,13 @@ With emojis:
 ```python
 >>> from printer import *
 >>> good("Hey!")
-[👍][20:33:57] Hey!
 ```
+![image](https://user-images.githubusercontent.com/19865145/126020113-532fd3d0-fb79-4272-97cc-a49e251fb454.png)
+
 Without emojis:
 ```python
 >>> from printer import *
 >>> useEmojis(False)
 >>> good("Hey!")
-GOOD 20:35:05 Host scanned
 ```
+![image](https://user-images.githubusercontent.com/19865145/126020120-861a1d81-d7a9-4b0e-b461-7d627c8f2c7f.png)
