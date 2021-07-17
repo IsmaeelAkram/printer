@@ -1,10 +1,18 @@
 # Printer
 Printing functions for my Python projects.
 
-## Installation & Usage
+## Installation
 ```sh
 pip install git+https://github.com/ismaeelakram/printer
 ```
+## Usage
+### Functions
+- `good(x)` - Green
+- `danger(x)` - Red
+- `warning(x)` - Yellow
+- `info(x)` - Cyan/Blue
+
+
 With emojis:
 ```python
 >>> from printer import *
